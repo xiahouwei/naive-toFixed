@@ -1,4 +1,4 @@
-# naive-toFixed
+# naive-tofixed
 
 To fix the error of the toFixed method not preserving decimal places
 
@@ -7,20 +7,20 @@ To fix the error of the toFixed method not preserving decimal places
 ## install
 
 ```
-npm install naive-toFixed
+npm install naive-tofixed
 ```
 
 ### import and use
 
 ```javascript
 
-import naiveToFixed from 'naive-toFixed'
+import NaToFixed from 'naive-tofixed'
 
 const a = 1.345
 
 console.log(a.toFixed(2)) // '1.34'
 
-console.log(naiveToFixed(a, 2)) // '1.35' got it!
+console.log(NaToFixed(a, 2)) // '1.35' got it!
 
 ```
 

@@ -1,6 +1,6 @@
 {
-  "name": "naive-toFixed",
-  "version": "1.0.0",
+  "name": "naive-tofixed",
+  "version": "1.0.1",
   "description": "风行前端行为日志收集模块",
   "main": "./dist/index.js",
   "typings": "types/index.d.ts",

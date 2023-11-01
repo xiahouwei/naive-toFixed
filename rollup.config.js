@@ -7,7 +7,7 @@ export default {
 	output: [{
 		file: './dist/index.js',
 		format: 'es',
-		name:'fxLoggerjs',
+		name: 'naiveTofixed',
 		exports: 'auto'
 	}],
 	plugins: [
@@ -15,6 +15,5 @@ export default {
 		resolve(),
 		commonjs(),
 		babel({ babelHelpers: 'bundled' })
-	],
-	external: id => /log4js.js/.test(id)
+	]
 };
