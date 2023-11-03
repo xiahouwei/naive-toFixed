@@ -1,7 +1,7 @@
 {
   "name": "naive-tofixed",
-  "version": "1.0.1",
-  "description": "风行前端行为日志收集模块",
+  "version": "1.0.2",
+  "description": "修正toFixed方法保留小数位的错误 To fix the error of the toFixed method not preserving decimal places",
   "main": "./dist/index.js",
   "typings": "types/index.d.ts",
   "scripts": {
