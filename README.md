@@ -18,9 +18,9 @@ import NaToFixed from 'naive-tofixed'
 
 const a = 1.345
 
-console.log(a.toFixed(2)) // '1.34'
+console.log(a.toFixed(2)) // '1.34' damn it! (`Д´*)9
 
-console.log(NaToFixed(a, 2)) // '1.35' got it!
+console.log(NaToFixed(a, 2)) // '1.35' got it! ╮(￣▽￣)╭
 
 ```
 
